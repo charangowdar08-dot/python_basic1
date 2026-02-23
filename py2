@@ -1,0 +1,33 @@
+def mul():
+    x = 10
+    y = 20
+    z = x * y
+    print(z)
+mul()
+def add():
+    x = 10
+    y = 20
+    z = x + y
+    print(z)
+add()
+def sub():
+    x = 10
+    y = 20
+    z = x - y
+    print(z)
+sub()
+def mul2():
+    x = 10
+    y = 20
+    z = x * y
+    print(z)
+mul2()
+def fun1(name , age):
+    print(name , age)
+fun1("john",18)
+def func(*num):
+    print(num)
+    print( sum(num))
+func(1, 2, 3, 4)
+
+

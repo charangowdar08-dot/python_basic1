@@ -1,0 +1,17 @@
+def sub(x, y):
+    z=x-y
+    return z
+def mul(x, y):
+    z=x*y
+    return z
+def div(x, y):
+    z=x/y
+    return z
+def pow(x, y):
+    z=x**y
+    return z
+print("substration",sub(20 , 5))
+print("multiple",mul(2 ,  4))
+print("division",div(2 , 4))
+print("power",pow(2 , 4))
+
